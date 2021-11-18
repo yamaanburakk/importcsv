@@ -1,0 +1,33 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  margin-top: 50px; 
+}
+table tr{
+  line-height: 150%;
+}
+.wrapper{
+  padding: 10%;
+}
+button{
+  width:100%;
+  background-color: red;
+  color: #ffffff;
+  padding: 2%;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer ;
+  box-shadow: 0;  
+  margin-top: 10%;
+  transition: color .6s,background-color .6s;
+}
+button:hover{
+  background-color: rgb(173, 85, 85);
+  color: red;
+
+}
